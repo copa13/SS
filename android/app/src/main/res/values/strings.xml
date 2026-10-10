@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EYC - Elevate Your Career</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_assessments">Assessments</string>
+    <string name="nav_careers">Careers</string>
+    <string name="nav_pathway">Pathway</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="title_dashboard">Welcome back</string>
+    <string name="title_student_profile">Student Profile</string>
+    <string name="title_aptitude_assessment">Interest &amp; Aptitude Assessment</string>
+    <string name="title_skill_audit">Skill Assessment &amp; Audit</string>
+    <string name="title_ai_career_guidance">AI Career Guidance Advisor</string>
+    <string name="title_career_matches">Career Matches &amp; Explanation</string>
+    <string name="title_skill_gap">Skill-Gap Identification</string>
+    <string name="title_learning_pathway">Learning-to-Career Pathway</string>
+    <string name="title_practical_projects">Practical Projects &amp; Progress</string>
+    <string name="title_career_readiness">Career Readiness &amp; Re-assessment</string>
+    <string name="title_readiness_report">Career Readiness Report</string>
+
+    <string name="btn_export_pdf">Export Official PDF Report</string>
+    <string name="btn_reassess">Trigger Benchmark Re-assessment</string>
+    <string name="btn_submit_project">Submit Project for Readiness Audit</string>
+    <string name="btn_save_skills">Save Skill Audit Profile</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_prev">Previous</string>
+    <string name="btn_retry">Try Again</string>
+</resources>

@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+  }
+}
+
+/* Custom scrollbars for code and phone viewport */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.4);
+}
+
+@keyframes gentleSway {
+  0%, 100% {
+    transform: scale(1) translateY(0px);
+  }
+  50% {
+    transform: scale(1.025) translateY(-4px);
+  }
+}
+
+@keyframes liveWindBreeze {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  30% {
+    transform: scale(1.018) rotate(0.4deg) translate(2px, -1px);
+  }
+  70% {
+    transform: scale(1.012) rotate(-0.3deg) translate(-2px, 1px);
+  }
+}
+
+@keyframes sunRays {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1) rotate(3deg);
+  }
+}
+
+@keyframes leafDrift {
+  0% {
+    transform: translateY(0px) translateX(0px) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.85;
+  }
+  80% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateY(220px) translateX(60px) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+.animate-gentle-sway {
+  animation: gentleSway 8s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes liveBranchWind {
+  0%, 100% {
+    transform: rotate(0deg) skewX(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(0.8deg) skewX(0.5deg) scale(1.012) translate(1px, -1px);
+  }
+  50% {
+    transform: rotate(-0.6deg) skewX(-0.4deg) scale(0.995) translate(-1.5px, 0.5px);
+  }
+  75% {
+    transform: rotate(0.5deg) skewX(0.3deg) scale(1.008) translate(1px, -0.5px);
+  }
+}
+
+@keyframes liveLeavesRustle {
+  0%, 100% {
+    filter: brightness(1) contrast(1.08) drop-shadow(0 15px 25px rgba(0,0,0,0.25));
+  }
+  50% {
+    filter: brightness(1.08) contrast(1.15) drop-shadow(0 18px 30px rgba(0,0,0,0.3));
+  }
+}
+
+.animate-tree-wind {
+  animation: liveBranchWind 6.5s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.animate-tree-breathe {
+  animation: liveLeavesRustle 4s ease-in-out infinite;
+}
+
+.animate-sun-rays {
+  animation: sunRays 9s ease-in-out infinite;
+}
+
+.animate-leaf-drift-1 {
+  animation: leafDrift 7s linear infinite;
+}
+
+.animate-leaf-drift-2 {
+  animation: leafDrift 10s linear infinite 3.5s;
+}
+
+.animate-leaf-drift-3 {
+  animation: leafDrift 13s linear infinite 7s;
+}
+
+

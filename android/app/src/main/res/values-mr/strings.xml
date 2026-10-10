@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EYC - करिअर प्रगती</string>
+    <string name="nav_home">मुख्यपृष्ठ</string>
+    <string name="nav_assessments">चाचण्या</string>
+    <string name="nav_careers">करिअर</string>
+    <string name="nav_pathway">मार्ग</string>
+    <string name="nav_profile">प्रोफाइल</string>
+
+    <string name="title_dashboard">स्वागत आहे</string>
+    <string name="title_login">लॉगिन (फोन नंबर / Gmail)</string>
+    <string name="title_student_profile">०१. विद्यार्थी प्रोफाइल</string>
+    <string name="title_aptitude_assessment">०२. आवड आणि ॲप्टिट्यूड चाचणी</string>
+    <string name="title_skill_audit">०३. कौशल्य मूल्यमापन</string>
+    <string name="title_ai_career_guidance">०४. AI करिअर मार्गदर्शन</string>
+    <string name="title_career_matches">०५. करिअर मॅच व स्पष्टीकरण</string>
+    <string name="title_skill_gap">०६. कौशल्यातील त्रुटी (Skill-Gap)</string>
+    <string name="title_learning_pathway">०७. शिक्षण ते करिअर मार्ग</string>
+    <string name="title_practical_projects">०८. प्रात्यक्षिक प्रकल्प व प्रगती</string>
+    <string name="title_career_readiness">०९. पुनर्मूल्यांकन व सुधारणा</string>
+    <string name="title_readiness_report">१०. करिअर सज्जता अहवाल (PDF)</string>
+
+    <string name="btn_export_pdf">अधिकृत PDF अहवाल डाउनलोड करा</string>
+    <string name="btn_reassess">पुन्हा चाचणी घ्या</string>
+    <string name="btn_submit_project">पडताळणीसाठी प्रकल्प सादर करा</string>
+    <string name="btn_save_skills">कौशल्य प्रोफाइल सेव्ह करा</string>
+    <string name="btn_next">पुढे</string>
+    <string name="btn_prev">मागे</string>
+    <string name="btn_retry">पुन्हा प्रयत्न करा</string>
+</resources>

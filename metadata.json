@@ -1,0 +1,6 @@
+{
+  "name": "EYC - Elevate Your Career | Android Jetpack Compose UI",
+  "description": "Production-ready Android Jetpack Compose Material 3 UI design system and interactive preview for EYC student career guidance app.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
